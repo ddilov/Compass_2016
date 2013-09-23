@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Компас</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta charset="windows-1251">
+		<link href="styles/main.css" rel="stylesheet" type="text/css" />
+
+		<script type="text/javascript" charset="windows-1251" src="cordova.js"></script>
+		<script type="text/javascript" charset="windows-1251" src="scripts/main.js"></script>
+	</head>
+	<body>
+		<header class="header">
+<center><h1>Компас</h1></center>
+		</header>
+		<div class="content">
+            <div class="action-area ch30">
+<center>
+                <button class="button dh" id="watchButton">Старт на Компаса</button>
+			    <button class="button dh" id="refreshButton">Точна ориентация</button><br><br>
+<font color="#3399ff" face="Comic Sans MS" size="2">
+<table border="0">
+<tr>
+<td align="right">Клуб:</td>
+<td align="left">Мобилни приложения</td>
+</tr>
+<tr>
+<td align="right">Ръководител:</td>
+<td align="left">Даниел Дилов</td>
+</tr>
+<tr>
+<td align="right">Училище:</td>
+<td align="left">Евроучилище РОВЕЛ</td>
+</tr>
+
+</table>
+</font>
+</center>
+			</div>
+            <div class="result-area ch70">
+                <div class="results">
+                    <div class="mapCompassFrame">
+				        <div id="compass" class="mapCompass"></div>
+			        </div>
+                    <div id="result" class="desc"></div>
+                </div>
+                <div class="separator"></div>
+			</div>
+		</div>
+		<footer class="footer">
+			<div>Септември 2013</div>
+		</footer>
+	</body>
+</html>
